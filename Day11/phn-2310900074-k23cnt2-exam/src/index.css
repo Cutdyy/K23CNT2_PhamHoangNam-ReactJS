@@ -1,0 +1,67 @@
+body {
+  background: linear-gradient(120deg, #fdfbfb, #ebedee);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #007bff;
+}
+
+h3 {
+  color: #28a745;
+}
+
+.table {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table thead {
+  background: #343a40;
+  color: white;
+}
+
+.table tbody tr:hover {
+  background: rgba(0, 123, 255, 0.1);
+  transition: 0.3s;
+}
+
+.btn-danger {
+  background: #dc3545;
+  border: none;
+  transition: 0.3s;
+}
+
+.btn-danger:hover {
+  background: #c82333;
+}
+
+.btn-primary {
+  background: #007bff;
+  border: none;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background: #0056b3;
+}
+body {
+  background: url("./picture/il_1588xN.4245590384_kzjb.webp") no-repeat center center fixed;
+  background-size: cover;
+  filter: none; /* Xóa mờ nếu có */
+}
+.table {
+  border: 1px solid rgba(0, 0, 0, 0.2) !important; /* Viền mờ 20% */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1) !important; /* Hiệu ứng mờ */
+  border-radius: 8px !important; /* Bo góc */
+}
+body {
+  opacity: 1 !important; /* Đảm bảo không bị mờ */
+}
